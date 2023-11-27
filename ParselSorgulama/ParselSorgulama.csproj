@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>ParselSorgulama</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Ozanay</Authors>
     <Company>Ozanay</Company>
     <Copyright>Copyright 2023</Copyright>
