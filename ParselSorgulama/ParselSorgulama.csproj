@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>ParselSorgulama</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Ozanay</Authors>
     <Company>Ozanay</Company>
     <Copyright>Copyright 2023</Copyright>
@@ -13,7 +13,24 @@
     <Title>ParselSorgulama</Title>
     <NeutralLanguage>tr</NeutralLanguage>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageIcon>Screenshot_1.png</PackageIcon>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/ozanaycelik/ParselSorgulama</RepositoryUrl>
+    <PackageReadmeFile>Readme.md</PackageReadmeFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+    <PackageLicenseFile></PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Screenshot_1.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="bin\Debug\Readme.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="NETStandard.Library" Version="2.0.3" />
